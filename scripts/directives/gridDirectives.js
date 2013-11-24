@@ -15,6 +15,7 @@
 
 $('.system').delegate('.test', 'click', function(e) {
 	e.stopPropagation();
+	$(this).removeClass('inner-shadow');
 	var color = $(this).css('background');
 	$(this).append('<div class="system">'+
 				   '	<div>'+
@@ -30,3 +31,14 @@ $('.system').delegate('.test', 'click', function(e) {
 	})
 });
 
+// Hover
+$('.system').delegate('.test', 'mouseenter', function(e) {
+	e.stopPropagation();
+	$(this).addClass('inner-shadow');
+
+
+	$(this).one('mouseleave', function() {
+		$(this).removeClass('inner-shadow');
+	} )
+		//$(this).css('background:rgba('+color+',.03)');
+});
