@@ -8,13 +8,13 @@
   <link rel="stylesheet" type="text/css" href="styles/grids/stylesheets/grids.css">
   <link rel="stylesheet" type="text/css" href="styles/toolbox/stylesheets/toolbox.css">
 </head>
-<body>
-	<div class="main">
+<body ng-app="grids">
+	<div class="main" controller="colorsController">
 		<div class="toolbox-f">
 			<div class="view">
 				<div>
 					<div class="colors">
-						<div></div>
+						<div ng-repeat="color in vm.getColors()"></div>
 					</div>
 				</div>
 			</div>
@@ -38,4 +38,5 @@
 <script type="text/javascript" src="vendors/jquery.js"></script>
 <script type="text/javascript" src="scripts/module.js"></script>
 <script type="text/javascript" src="scripts/directives/gridDirectives.js"></script>
+<script type="text/javascript" src="scripts/controllers/gridController.js"></script>
 </html>
