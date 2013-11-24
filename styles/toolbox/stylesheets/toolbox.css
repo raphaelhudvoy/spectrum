@@ -5,58 +5,58 @@
   left: 0;
   width: 180px;
   height: 100%;
-  background: rgba(34, 34, 34, 0.04);
+  background: white;
   padding: 0 0 25px 0;
-  border-right: 1px solid white;
+  border-right: 2px solid white;
   z-index: 1;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
-/* line 24, ../sass/toolbox.scss */
+/* line 25, ../sass/toolbox.scss */
 .main > .toolbox-f > .view, .main > .toolbox-s > .view, .main > .toolbox-f > .toggle, .main > .toolbox-s > .toggle {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
-/* line 27, ../sass/toolbox.scss */
+/* line 28, ../sass/toolbox.scss */
 .main > .toolbox-f > .view, .main > .toolbox-s > .view, .main > .toolbox-f > .toggle, .main > .toolbox-s > .toggle {
   width: 100%;
 }
-/* line 30, ../sass/toolbox.scss */
+/* line 31, ../sass/toolbox.scss */
 .main > .toolbox-f > .view, .main > .toolbox-s > .view {
   float: left;
   height: 100%;
   background: transparent;
 }
-/* line 35, ../sass/toolbox.scss */
+/* line 36, ../sass/toolbox.scss */
 .main > .toolbox-f > .view > div, .main > .toolbox-s > .view > div {
   float: left;
   position: relative;
   width: 100%;
   height: 100%;
 }
-/* line 41, ../sass/toolbox.scss */
+/* line 42, ../sass/toolbox.scss */
 .main > .toolbox-f > .view > div > .colors, .main > .toolbox-s > .view > div > .colors {
   float: left;
   width: 100%;
   height: 100%;
   overflow-y: auto;
 }
-/* line 47, ../sass/toolbox.scss */
+/* line 48, ../sass/toolbox.scss */
 .main > .toolbox-f > .view > div > .colors > div, .main > .toolbox-s > .view > div > .colors > div {
   float: left;
   width: 10%;
   height: 20px;
   background: orange;
 }
-/* line 56, ../sass/toolbox.scss */
+/* line 57, ../sass/toolbox.scss */
 .main > .toolbox-f > .toggle, .main > .toolbox-s > .toggle {
   position: absolute;
   bottom: 0;
   left: 0;
   height: 25px;
   background: rgba(0, 0, 0, 0.04);
-  border-top: 1px solid white;
+  border-top: 2px solid white;
   z-index: 1;
 }

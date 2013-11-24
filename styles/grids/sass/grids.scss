@@ -6,6 +6,7 @@
 	float:left;
 	width:100%;
 	height:100%;
+	background:teal;
 	padding:0 0 0 180px;
 	z-index:0;
 	@include box-sizing(border-box);
@@ -14,8 +15,8 @@
 		float:left;
 		width:100%;
 		height:100%;
-		background:indianred;
-			
+		background:rgba(white,.7);
+		
 		>div {
 			position:relative;
 			float:left;

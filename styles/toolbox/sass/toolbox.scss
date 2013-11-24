@@ -15,9 +15,10 @@ $toolbox-border-color:white;
 	left:0;
 	width:180px;
 	height:100%;
-	background:$toolbox-background;
+	//background:$toolbox-background;
+	background:white;
 	padding:0 0 $toolbox-toggle-height 0;
-	border-right:1px solid $toolbox-border-color;
+	border-right:2px solid $toolbox-border-color;
 	z-index:1;
 	@include box-sizing(border-box);
 	
@@ -59,7 +60,7 @@ $toolbox-border-color:white;
 		left:0;
 		height:$toolbox-toggle-height;
 		background:$toolbox-toggle-background;
-		border-top:1px solid $toolbox-border-color;
+		border-top:2px solid $toolbox-border-color;
 		z-index:1;
 	}
 }

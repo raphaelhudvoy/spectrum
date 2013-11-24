@@ -3,51 +3,52 @@
   float: left;
   width: 100%;
   height: 100%;
+  background: teal;
   padding: 0 0 0 180px;
   z-index: 0;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
-/* line 13, ../sass/grids.scss */
+/* line 14, ../sass/grids.scss */
 .main > .grids .system {
   float: left;
   width: 100%;
   height: 100%;
-  background: indianred;
+  background: rgba(255, 255, 255, 0.7);
 }
-/* line 19, ../sass/grids.scss */
+/* line 20, ../sass/grids.scss */
 .main > .grids .system > div {
   position: relative;
   float: left;
   width: 100%;
   height: 100%;
 }
-/* line 25, ../sass/grids.scss */
+/* line 26, ../sass/grids.scss */
 .main > .grids .system > div > .case-tl, .main > .grids .system > div > .case-tr, .main > .grids .system > div > .case-bl, .main > .grids .system > div > .case-br {
   position: absolute;
   width: 50%;
   height: 50%;
 }
-/* line 30, ../sass/grids.scss */
+/* line 31, ../sass/grids.scss */
 .main > .grids .system > div > .case-tl {
   top: 0;
   left: 0;
   background: rgba(0, 0, 0, 0.3);
 }
-/* line 36, ../sass/grids.scss */
+/* line 37, ../sass/grids.scss */
 .main > .grids .system > div > .case-tr {
   top: 0;
   right: 0;
   background: rgba(0, 0, 0, 0.45);
 }
-/* line 43, ../sass/grids.scss */
+/* line 44, ../sass/grids.scss */
 .main > .grids .system > div > .case-bl {
   bottom: 0;
   left: 0;
   background: rgba(0, 0, 0, 0.6);
 }
-/* line 50, ../sass/grids.scss */
+/* line 51, ../sass/grids.scss */
 .main > .grids .system > div > .case-br {
   bottom: 0;
   right: 0;
