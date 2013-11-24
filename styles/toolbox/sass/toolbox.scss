@@ -1,0 +1,71 @@
+@import "compass/css3";
+@import "compass/css3/user-interface";
+
+$toolbox-meter-width:30px;
+$toolbox-meter-tonescount:100;
+$toolbox-background:rgba(#222,.04);
+$toolbox-toggle-height:25px;
+$toolbox-toggle-background:darken($toolbox-background,80%);
+//$toolbox-border-color:darken($toolbox-toggle-background,8%);
+$toolbox-border-color:white;
+
+%toolbox {
+	position:absolute;
+	top:0;
+	left:0;
+	width:180px;
+	height:100%;
+	background:$toolbox-background;
+	padding:0 0 $toolbox-toggle-height 0;
+	border-right:1px solid $toolbox-border-color;
+	z-index:1;
+	@include box-sizing(border-box);
+	
+	>.view, >.toggle {
+		@include box-sizing(border-box);
+	}
+	>.view, >.toggle {
+		width:100%;
+	}
+	>.view {
+		float:left;
+		height:100%;
+		background:transparent;
+		
+		>div {
+			float:left;
+			position:relative;
+			width:100%;
+			height:100%;
+			
+			>.colors {
+				float:left;
+				width:100%;
+				height:100%;
+				overflow-y:auto;
+				
+				>div {
+					float:left;
+					width:10%;
+					height:20px;
+					background:orange;
+				}
+			}
+		}
+	}
+	>.toggle {
+		position:absolute;
+		bottom:0;
+		left:0;
+		height:$toolbox-toggle-height;
+		background:$toolbox-toggle-background;
+		border-top:1px solid $toolbox-border-color;
+		z-index:1;
+	}
+}
+.main > .toolbox-f {
+	@extend %toolbox;
+}
+.main > .toolbox-s {
+	@extend %toolbox;
+}
