@@ -1,5 +1,4 @@
 @import "compass/css3";
-@import "compass/css3/user-interface";
 
 .main > .grids {
 	float:left;
@@ -29,30 +28,31 @@
 				height:50%;
 				cursor:url(../../basestyle/cursors/cursor.png), auto;
 			}
-			>.case-tl {
+			>.case-tl, >.case-tr, >.case-bl, >.case-br {
 				@extend %case;
+			}
+			>.case-tl, >.case-tr {
 				top:0;
+			}
+			>.case-bl, >.case-br {
+				bottom:0;
+			}
+			>.case-tr, >.case-br {
+				right:0;
+			}
+			>.case-tl, >.case-bl {
 				left:0;
+			}
+			>.case-tl {
 				background:rgba(#000,.10);
 			}
 			>.case-tr {
-				@extend %case;
-				top:0;
-				right:0;
 				background:rgba(#000,.30);
-				
 			}
 			>.case-bl {
-				@extend %case;
-				bottom:0;
-				left:0;
-				background:rgba(#000,.50);
-				
+				background:rgba(#000,.50);				
 			}
 			>.case-br {
-				@extend %case;
-				bottom:0;
-				right:0;
 				background:rgba(#000,.70);
 				
 			}

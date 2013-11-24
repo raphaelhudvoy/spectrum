@@ -1,4 +1,4 @@
-/* line 12, ../sass/toolbox.scss */
+/* line 10, ../sass/toolbox.scss */
 .main > .toolbox-f, .main > .toolbox-s {
   position: absolute;
   top: 0;
@@ -13,44 +13,44 @@
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
-/* line 25, ../sass/toolbox.scss */
+/* line 23, ../sass/toolbox.scss */
 .main > .toolbox-f > .meter, .main > .toolbox-s > .meter, .main > .toolbox-f > .view, .main > .toolbox-s > .view, .main > .toolbox-f > .toggle, .main > .toolbox-s > .toggle {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
-/* line 28, ../sass/toolbox.scss */
+/* line 26, ../sass/toolbox.scss */
 .main > .toolbox-f > .view, .main > .toolbox-s > .view, .main > .toolbox-f > .toggle, .main > .toolbox-s > .toggle {
   width: 100%;
 }
-/* line 31, ../sass/toolbox.scss */
+/* line 29, ../sass/toolbox.scss */
 .main > .toolbox-f > .view, .main > .toolbox-s > .view {
   float: left;
   height: 100%;
   background: transparent;
 }
-/* line 36, ../sass/toolbox.scss */
+/* line 34, ../sass/toolbox.scss */
 .main > .toolbox-f > .view > div, .main > .toolbox-s > .view > div {
   float: left;
   position: relative;
   width: 100%;
   height: 100%;
 }
-/* line 42, ../sass/toolbox.scss */
+/* line 40, ../sass/toolbox.scss */
 .main > .toolbox-f > .view > div > .colors, .main > .toolbox-s > .view > div > .colors {
   float: left;
   width: 100%;
   height: 100%;
   overflow-y: auto;
 }
-/* line 48, ../sass/toolbox.scss */
+/* line 46, ../sass/toolbox.scss */
 .main > .toolbox-f > .view > div > .colors .color, .main > .toolbox-s > .view > div > .colors .color {
   float: left;
   width: 25%;
   height: 20px;
   background: rgba(0, 0, 0, 0.2);
 }
-/* line 57, ../sass/toolbox.scss */
+/* line 55, ../sass/toolbox.scss */
 .main > .toolbox-f > .toggle, .main > .toolbox-s > .toggle {
   position: absolute;
   bottom: 0;

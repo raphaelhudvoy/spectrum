@@ -1,15 +1,14 @@
 @import "compass/reset";
 @import "compass/css3";
-@import "compass/css3/text-shadow";
-@import "compass/css3/user-interface";
 @import "compass/layout";
 
-@include font-face("entypo", font-files("../../fonts/entypo.ttf", "../../fonts/entypo.eot","../../fonts/entypo.woff", "../../fonts/entypo.svg"));
+@include font-face("entypo", 
+		 font-files("../../fonts/entypo.ttf",
+		 			"../../fonts/entypo.eot",
+					"../../fonts/entypo.woff",
+					"../../fonts/entypo.svg"));
 
-::-webkit-scrollbar {
-	display:none;
-}
-::-moz-scrollbar {
+::-webkit-scrollbar, ::-moz-scrollbar {
 	display:none;
 }
 
@@ -20,10 +19,10 @@
 	width:100%;
 	height:100%;
 	
-	.hidden {
-		
+	.hide {
+		display:none;
 	}
-	.inner-shadow {
+	.damp {
 		@include box-shadow(inset rgba(#000,.25) 0 0 10px);
 	}
 }

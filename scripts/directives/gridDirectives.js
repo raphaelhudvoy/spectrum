@@ -4,7 +4,7 @@
 // 				   '	<div>'+
 // 				   '		<div class="case-tl enable"></div>'+
 // 				   '		<div class="case-tr enable"></div>'+
-// 				   '		<div class="case-bl enable"></div>'+
+// 				   '		<div class="case-bl enabdample"></div>'+
 // 				   '		<div class="case-br enable"></div>'+
 // 				   '	</div>'+
 // 				   '</div>');
@@ -15,7 +15,7 @@
 
 $('.system').delegate('.test', 'click', function(e) {
 	e.stopPropagation();
-	$(this).removeClass('inner-shadow');
+	$(this).removeClass('damp');
 	var color = $(this).css('background');
 	$(this).append('<div class="system">'+
 				   '	<div>'+
@@ -34,11 +34,11 @@ $('.system').delegate('.test', 'click', function(e) {
 // Hover
 $('.system').delegate('.test', 'mouseenter', function(e) {
 	e.stopPropagation();
-	$(this).addClass('inner-shadow');
+	$(this).addClass('damp');
 
 
 	$(this).one('mouseleave', function() {
-		$(this).removeClass('inner-shadow');
+		$(this).removeClass('damp');
 	} )
 		//$(this).css('background:rgba('+color+',.03)');
 });

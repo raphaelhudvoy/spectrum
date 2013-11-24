@@ -1,12 +1,10 @@
 @import "compass/css3";
-@import "compass/css3/user-interface";
 
 $toolbox-meter-width:30px;
 $toolbox-meter-tonescount:100;
 $toolbox-background:rgba(#222,.04);
 $toolbox-toggle-height:25px;
 $toolbox-toggle-background:darken($toolbox-background,80%);
-//$toolbox-border-color:darken($toolbox-toggle-background,8%);
 $toolbox-border-color:white;
 
 %toolbox {
