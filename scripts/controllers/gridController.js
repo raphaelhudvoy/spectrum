@@ -4,6 +4,10 @@ Grids.controller('colorsController', ['$scope', function($scope) {
 	
 	vm.getColors	=	function() {
 		
-		return Array(100);
+		var array = [];
+		for (var i = 0; i < 1000; i++) {
+			array.push({});
+		}
+		return array;
 	}
 }]);
