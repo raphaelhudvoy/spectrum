@@ -1,0 +1,50 @@
+/* line 5, ../sass/grids.scss */
+.main > .grids {
+  float: left;
+  width: 100%;
+  height: 100%;
+}
+/* line 10, ../sass/grids.scss */
+.main > .grids .system {
+  float: left;
+  width: 100%;
+  height: 100%;
+  background: indianred;
+}
+/* line 16, ../sass/grids.scss */
+.main > .grids .system > div {
+  position: relative;
+  float: left;
+  width: 100%;
+  height: 100%;
+}
+/* line 22, ../sass/grids.scss */
+.main > .grids .system > div > .case-tl, .main > .grids .system > div > .case-tr, .main > .grids .system > div > .case-bl, .main > .grids .system > div > .case-br {
+  position: absolute;
+  width: 50%;
+  height: 50%;
+}
+/* line 27, ../sass/grids.scss */
+.main > .grids .system > div > .case-tl {
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.3);
+}
+/* line 33, ../sass/grids.scss */
+.main > .grids .system > div > .case-tr {
+  top: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.45);
+}
+/* line 40, ../sass/grids.scss */
+.main > .grids .system > div > .case-bl {
+  bottom: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.6);
+}
+/* line 47, ../sass/grids.scss */
+.main > .grids .system > div > .case-br {
+  bottom: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.75);
+}

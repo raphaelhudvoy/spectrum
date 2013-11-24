@@ -1,0 +1,56 @@
+@import "compass/css3";
+@import "compass/css3/user-interface";
+//@import "compass/css3/typography";
+
+.main > .grids {
+	float:left;
+	width:100%;
+	height:100%;
+	
+	.system {
+		float:left;
+		width:100%;
+		height:100%;
+		background:indianred;
+			
+		>div {
+			position:relative;
+			float:left;
+			width:100%;
+			height:100%;
+			
+			%case {
+				position:absolute;
+				width:50%;
+				height:50%;
+			}
+			>.case-tl {
+				@extend %case;
+				top:0;
+				left:0;
+				background:rgba(#000,.3);
+			}
+			>.case-tr {
+				@extend %case;
+				top:0;
+				right:0;
+				background:rgba(#000,.45);
+				
+			}
+			>.case-bl {
+				@extend %case;
+				bottom:0;
+				left:0;
+				background:rgba(#000,.60);
+				
+			}
+			>.case-br {
+				@extend %case;
+				bottom:0;
+				right:0;
+				background:rgba(#000,.75);
+				
+			}
+		}
+	}
+}
