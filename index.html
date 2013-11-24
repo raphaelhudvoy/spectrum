@@ -9,18 +9,20 @@
 </head>
 <body>
 	<div class="main">
-		<div class="grids">
+		<div class="grids" ng-app="grids">
 			<div class="system">
 				<div>
-					<div class="case-tl"></div>
-					<div class="case-tr"></div>
-					<div class="case-bl"></div>
-					<div class="case-br"></div>
+					<div class="case-tl test"></div>
+					<div class="case-tr test"></div>
+					<div class="case-bl test"></div>
+					<div class="case-br test" ></div>
 				</div>
 			</div>
 		</div>
 	</div>
 </body>
-<script type="text/javascript" src="scripts/vendors/jquery_ui_v1.10.3.js"></script>
-<script type="text/javascript" src="scripts/vendors/jquery_v1.9.0.js"></script>
+<script type="text/javascript" src="vendors/angular.js"></script>
+<script type="text/javascript" src="vendors/jquery.js"></script>
+<script type="text/javascript" src="scripts/module.js"></script>
+<script type="text/javascript" src="scripts/directives/gridDirectives.js"></script>
 </html>
