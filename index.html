@@ -14,7 +14,7 @@
 			<div class="view">
 				<div>
 					<div class="colors">
-						<div ng-repeat="color in vm.getColors()"></div>
+						<div ng-repeat="color in vm.getColors()" ng-class="color+$index"></div>
 					</div>
 				</div>
 			</div>

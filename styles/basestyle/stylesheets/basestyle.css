@@ -88,7 +88,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 }
 /* line 26, ../sass/basestyle.scss */
 .main .inner-shadow {
-  -webkit-box-shadow: inset rgba(0, 0, 0, 0.3) 0 0 20px;
-  -moz-box-shadow: inset rgba(0, 0, 0, 0.3) 0 0 20px;
-  box-shadow: inset rgba(0, 0, 0, 0.3) 0 0 20px;
+  -webkit-box-shadow: inset rgba(0, 0, 0, 0.25) 0 0 10px;
+  -moz-box-shadow: inset rgba(0, 0, 0, 0.25) 0 0 10px;
+  box-shadow: inset rgba(0, 0, 0, 0.25) 0 0 10px;
 }

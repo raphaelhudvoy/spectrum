@@ -5,7 +5,7 @@
   left: 0;
   width: 180px;
   height: 100%;
-  background: white;
+  background: #999;
   padding: 0 0 25px 0;
   border-right: 2px solid white;
   z-index: 1;
@@ -44,11 +44,11 @@
   overflow-y: auto;
 }
 /* line 48, ../sass/toolbox.scss */
-.main > .toolbox-f > .view > div > .colors > div, .main > .toolbox-s > .view > div > .colors > div {
+.main > .toolbox-f > .view > div > .colors .color, .main > .toolbox-s > .view > div > .colors .color {
   float: left;
   width: 20%;
   height: 20px;
-  background: orange;
+  background: rgba(0, 0, 0, 0.2);
 }
 /* line 57, ../sass/toolbox.scss */
 .main > .toolbox-f > .toggle, .main > .toolbox-s > .toggle {

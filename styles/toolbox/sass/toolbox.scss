@@ -16,7 +16,7 @@ $toolbox-border-color:white;
 	width:180px;
 	height:100%;
 	//background:$toolbox-background;
-	background:white;
+	background:#999;
 	padding:0 0 $toolbox-toggle-height 0;
 	border-right:2px solid $toolbox-border-color;
 	z-index:1;
@@ -45,11 +45,11 @@ $toolbox-border-color:white;
 				height:100%;
 				overflow-y:auto;
 				
-				>div {
+				.color {
 					float:left;
 					width:20%;
 					height:20px;
-					background:orange;
+					background:rgba(#000,.2);
 				}
 			}
 		}
