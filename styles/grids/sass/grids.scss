@@ -28,6 +28,7 @@
 				position:absolute;
 				width:50%;
 				height:50%;
+				cursor:url(../../basestyle/cursors/cursor.png), auto;
 			}
 			>.case-tl {
 				@extend %case;

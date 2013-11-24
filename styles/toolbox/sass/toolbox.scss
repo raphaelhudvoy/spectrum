@@ -22,7 +22,7 @@ $toolbox-border-color:white;
 	z-index:1;
 	@include box-sizing(border-box);
 	
-	>.view, >.toggle {
+	>.meter, >.view, >.toggle {
 		@include box-sizing(border-box);
 	}
 	>.view, >.toggle {
@@ -47,7 +47,7 @@ $toolbox-border-color:white;
 				
 				>div {
 					float:left;
-					width:10%;
+					width:20%;
 					height:20px;
 					background:orange;
 				}

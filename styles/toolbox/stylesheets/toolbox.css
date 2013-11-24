@@ -14,7 +14,7 @@
   box-sizing: border-box;
 }
 /* line 25, ../sass/toolbox.scss */
-.main > .toolbox-f > .view, .main > .toolbox-s > .view, .main > .toolbox-f > .toggle, .main > .toolbox-s > .toggle {
+.main > .toolbox-f > .meter, .main > .toolbox-s > .meter, .main > .toolbox-f > .view, .main > .toolbox-s > .view, .main > .toolbox-f > .toggle, .main > .toolbox-s > .toggle {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
@@ -46,7 +46,7 @@
 /* line 48, ../sass/toolbox.scss */
 .main > .toolbox-f > .view > div > .colors > div, .main > .toolbox-s > .view > div > .colors > div {
   float: left;
-  width: 10%;
+  width: 20%;
   height: 20px;
   background: orange;
 }

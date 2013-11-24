@@ -23,4 +23,7 @@
 	.hidden {
 		
 	}
+	.inner-shadow {
+		@include box-shadow(inset rgba(#000,.3) 0 0 20px);
+	}
 }

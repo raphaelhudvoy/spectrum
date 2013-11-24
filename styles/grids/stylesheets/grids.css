@@ -30,26 +30,27 @@
   position: absolute;
   width: 50%;
   height: 50%;
+  cursor: url(../../basestyle/cursors/cursor.png), auto;
 }
-/* line 32, ../sass/grids.scss */
+/* line 33, ../sass/grids.scss */
 .main > .grids .system > div > .case-tl {
   top: 0;
   left: 0;
   background: rgba(0, 0, 0, 0.1);
 }
-/* line 38, ../sass/grids.scss */
+/* line 39, ../sass/grids.scss */
 .main > .grids .system > div > .case-tr {
   top: 0;
   right: 0;
   background: rgba(0, 0, 0, 0.3);
 }
-/* line 45, ../sass/grids.scss */
+/* line 46, ../sass/grids.scss */
 .main > .grids .system > div > .case-bl {
   bottom: 0;
   left: 0;
   background: rgba(0, 0, 0, 0.5);
 }
-/* line 52, ../sass/grids.scss */
+/* line 53, ../sass/grids.scss */
 .main > .grids .system > div > .case-br {
   bottom: 0;
   right: 0;
